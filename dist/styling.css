@@ -1,0 +1,522 @@
+*{
+    padding: 0;
+    margin: 0;    
+    box-sizing: border-box
+}
+
+html, body{
+    font: 12px "montserrat light"; 
+    overflow-x: hidden !important;
+    width: 100vw;
+    height: 100vh; 
+}
+
+nav ul a{
+    color: rgb(209, 207, 207) ;
+    font-size: 14px;
+    transition: .25s linear;
+}
+nav ul a:hover{
+    color: #fff;
+}
+
+.one{
+    overflow-x: hidden !important;
+    color: #333 ;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1515511856280-7b23f68d2996?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+/* logo */
+.brand{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.brand h1{
+    font-size: 2.5em;
+    font: "montserrat extralight";
+    font-weight: 100;    
+}
+
+/* section 1 */
+/* hero */
+.hero{
+    overflow-x: hidden !important;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(41, 39, 39)
+}
+.hero h1{
+    padding-left: 20px;
+    font-family: "orbitron black";
+    letter-spacing: 20px;
+    font-size: 50px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.555);
+}
+.hero p{
+    text-align: center;
+    letter-spacing: 2px;
+    font: 14px "montserrat regular";
+    text-shadow: 1px 1px 3px rgba(150, 149, 149, 0.555);
+
+}
+
+/* advertisement section */
+.advertisement{
+    padding: 30px  0 0 50px;
+    font-family: 'Reenie Beanie', cursive;
+    /* text-align: center; */
+    width: 100%;
+    height: 60%;
+    background-image: url('https://images.unsplash.com/photo-1519418482467-96eca39b3f1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    background-size: cover;
+    background-position: top center;
+}
+
+.advertisement .content{    
+    box-shadow: 1px 1px 3px rgba(150, 149, 149, 0.555);
+    padding: 5px 2px 10px 45px;
+    width: 70%;
+    height: 95%;
+    transform: rotate(15deg);
+    background-image: url('./images/paper.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.advertisement .content p{
+    line-height: 16px;
+   font-size: 18px;
+}
+
+
+/* section 2 */
+.two{
+    overflow-x: hidden !important;
+    position: relative;
+    padding: 40px 0;
+    width: 100%;  
+   
+    background: #fff;
+}
+
+.two h1{
+    margin-left: 20px;
+    font-size: 2em;
+    font-weight: 0;
+    color: red;
+}
+
+.two main{
+
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
+.two main .left {
+    width:  100%;
+    margin-bottom: 20px;
+}
+
+.two main .right{
+   width: 100%;
+    
+}
+
+
+
+/* section 3 */
+.three{
+    overflow-x: hidden !important;
+    position: relative;
+    padding: 40px 0;
+    width: 100%;   
+    background: linear-gradient(to bottom, rgb(248, 247, 247), #fff, #fff);
+}   
+
+.three h1{
+    color: blue;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+.three .container{
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.three .container .in-container{
+    padding-top: 20px;
+    width: 430%;
+    display: flex;
+}
+
+.three .container1{
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.three .container1 .in-container1{
+    padding-top: 20px;
+    width: 310%;
+    display: flex;
+}
+
+/* section 3.5 */
+
+.three-five{
+    overflow-x: hidden !important;
+    width: 100%;
+    min-height: 350px;
+    padding: 40px 0;
+    background:rgb(247, 247, 247);
+    background: linear-gradient(rgb(248, 247, 247), rgb(241, 240, 240))
+}
+
+.three-five h1{
+    color: green;
+    margin-left: 20px;
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+.three-five .container{
+    /* background-color: red;
+    border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.three-five .container .in-container{
+    width: 1100%;
+    display: flex;
+}
+
+.three-five .container .in-container .card{
+    margin: 50px auto 50px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    border-radius: 10px;
+    width: 260px;    
+     /*235  */
+    height: 380px;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0 3px 1px rgba(0, 0, 0, .2);
+    
+}
+
+.three-five  .container .in-container .card .image{
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 5px;
+    /* 215px */
+    width: 235px;
+    height: 235px;
+    box-shadow:  0 5px 15px 3px rgba(0, 0, 0, .1);
+    background-size: cover;
+    background-position: top;
+}
+
+.three-five .container .in-container .card .image .name{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    font-size: 14px;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 1px 2px 3px black;
+}
+
+
+.three-five .container .in-container .card .designation{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.three-five .container .in-container .card .link{
+    margin: 0 5px;
+}
+
+
+/* section 4 */
+.four{
+    overflow-x: hidden !important;
+    color: #fff;
+    width: 100%;
+    background-color: rgb(59, 57, 57);
+}
+
+.four .contact {
+    padding: 20px 10px;
+}
+
+.four .contact .social{
+    margin-bottom: 15px;
+}
+
+.four .contact .social a{
+    margin: 0 5px;
+    transition: .25s linear all;
+}
+
+.four .contact .social a:hover{
+    color: red;
+}
+
+.four .contact p{
+    line-height: 17px;
+}
+
+.four .contact h3{
+    font-size: 1.5em;
+}
+
+footer {
+    font-size: .7em;
+    margin-right: 15px;
+    text-align: right;
+    padding-bottom: 2px;
+}
+
+footer span {
+    font-size: 1.6em;
+    color: red;
+}
+
+footer a{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(109, 109, 247)
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    .desk{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .desk::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);        
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+
+    }
+    .desk::after{
+        font-family: 'Reenie Beanie', cursive;
+        font-size: 2em;
+        content: 'AVAILABLE FOR MOBILE POTRAIT VIEW ONLY !!! Sorrry for the inconveniance "Minimax Dance Studio" Website is under construction"';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);        
+        color: #fff;
+        z-index: 1000;
+
+    }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .desk{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .desk::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);        
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+
+    }
+    .desk::after{
+        font-family: 'Reenie Beanie', cursive;
+        font-size: 2em;
+        content: 'AVAILABLE FOR MOBILE POTRAIT VIEW ONLY !!! Sorrry for the inconveniance "Minimax Dance Studio" Website is under construction"';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);        
+        color: #fff;
+        z-index: 1000;
+
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .desk{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .desk::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);        
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+
+    }
+    .desk::after{
+        font-family: 'Reenie Beanie', cursive;
+        font-size: 2em;
+        content: 'AVAILABLE FOR MOBILE POTRAIT VIEW ONLY !!! Sorrry for the inconveniance "Minimax Dance Studio" Website is under construction"';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);        
+        color: #fff;
+        z-index: 1000;
+
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .desk{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .desk::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);        
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+
+    }
+    .desk::after{
+        font-family: 'Reenie Beanie', cursive;
+        font-size: 2em;
+        content: 'AVAILABLE FOR MOBILE POTRAIT VIEW ONLY !!! Sorrry for the inconveniance "Minimax Dance Studio" Website is under construction"';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);        
+        color: #fff;
+        z-index: 1000;
+
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .desk{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .desk::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);        
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+
+    }
+    .desk::after{
+        font-family: 'Reenie Beanie', cursive;
+        font-size: 2em;
+        content: 'AVAILABLE FOR MOBILE POTRAIT VIEW ONLY !!! Sorrry for the inconveniance "Minimax Dance Studio" Website is under construction"';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);        
+        color: #fff;
+        z-index: 1000;
+
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    //CSS
+    
+  }
